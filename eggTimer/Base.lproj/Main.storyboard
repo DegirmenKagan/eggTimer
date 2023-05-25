@@ -165,6 +165,7 @@
                     <connections>
                         <outlet property="hardButton" destination="Ze1-2S-YxP" id="cq6-nZ-mZc"/>
                         <outlet property="mediumButton" destination="0Nd-hN-j4m" id="Q8q-71-D5x"/>
+                        <outlet property="progressBar" destination="von-l3-mJV" id="4El-06-FI4"/>
                         <outlet property="softButton" destination="Ccs-Ky-DS1" id="QGO-mw-NaF"/>
                         <outlet property="titleLabel" destination="KHg-k8-ngy" id="E6U-qY-cG8"/>
                     </connections>

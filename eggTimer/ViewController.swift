@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mediumButton: UIButton!
     @IBOutlet weak var hardButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var progressBar: UIProgressView!
     
     let eggTimes = ["Soft": 300,"Medium":420,"Hard":720]
     var totalTime = 0
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     @objc func updateCounter() {
         if secondsPassed < totalTime {
             secondsPassed+=1
-            
+            progressBar.progress = Float(secondsPassed) / Float(totalTime)
             
         }else{
             timer.invalidate()
@@ -38,6 +39,7 @@ class ViewController: UIViewController {
         sender.setTitleColor(UIColor.systemYellow, for: UIControl.State.normal)
         secondsPassed = 0
         totalTime = eggTimes[hardness]!
+        progressBar.progress = 0.0
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
         
