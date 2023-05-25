@@ -1,6 +1,7 @@
 # eggTimer
 eggTimer app for cook your eggs however you like perfectly.
+![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 05 24](https://github.com/DegirmenKagan/eggTimer/assets/42985494/4361335d-2e78-4eba-bfe4-746c2024baea)
+![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 05 01](https://github.com/DegirmenKagan/eggTimer/assets/42985494/6ae47471-351a-4688-81ff-b58f82b5965b)
+![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 05 05](https://github.com/DegirmenKagan/eggTimer/assets/42985494/e2668717-f4b8-48af-a10d-8d0b6e945e98)
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 00 58](https://github.com/DegirmenKagan/eggTimer/assets/42985494/12f8038f-6a59-4503-82b2-713aed2d9483)
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 01 45](https://github.com/DegirmenKagan/eggTimer/assets/42985494/ac3439d2-c8a1-4bf4-922f-18e38072adff)
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-25 at 23 02 05](https://github.com/DegirmenKagan/eggTimer/assets/42985494/64470aba-917e-4405-8f56-13c5820a49ea)
+
