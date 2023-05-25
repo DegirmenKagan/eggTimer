@@ -22,14 +22,26 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-0E-pN4" userLabel="TitleView">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="227"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you like your egg?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="KHg-k8-ngy">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="227"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="KHg-k8-ngy" firstAttribute="top" secondItem="ybT-0E-pN4" secondAttribute="top" id="ZBg-ER-psG"/>
+                                            <constraint firstAttribute="trailing" secondItem="KHg-k8-ngy" secondAttribute="trailing" id="ak4-3B-51u"/>
+                                            <constraint firstItem="KHg-k8-ngy" firstAttribute="leading" secondItem="ybT-0E-pN4" secondAttribute="leading" id="cfm-ZC-5HB"/>
+                                            <constraint firstAttribute="bottom" secondItem="KHg-k8-ngy" secondAttribute="bottom" id="eiU-Wv-1E8"/>
+                                        </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3k-Kv-J1J" userLabel="EggStackView">
                                         <rect key="frame" x="0.0" y="266" width="393" height="227"/>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P16-ov-Dak" userLabel="TimerView">
                                         <rect key="frame" x="0.0" y="532" width="393" height="227"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -50,9 +62,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
