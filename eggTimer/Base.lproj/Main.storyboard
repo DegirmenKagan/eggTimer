@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="WbX-4f-LPv" userLabel="VerticalStackView">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="WbX-4f-LPv" userLabel="VerticalStackView">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-0E-pN4" userLabel="TitleView">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="227"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="251.66666666666666"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you like your egg?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="KHg-k8-ngy">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="227"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you like your egg?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="KHg-k8-ngy" userLabel="titleLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="251.66666666666666"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -38,16 +38,16 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U3k-Kv-J1J" userLabel="EggStackView">
-                                        <rect key="frame" x="0.0" y="266" width="393" height="227"/>
+                                        <rect key="frame" x="0.0" y="253.66666666666669" width="393" height="251.66666666666669"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-W2-Li1" userLabel="SoftView">
-                                                <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="czb-7J-cM3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccs-Ky-DS1" userLabel="SoftButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <size key="titleShadowOffset" width="1" height="1"/>
@@ -68,13 +68,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfo-bS-B18" userLabel="MediumView">
-                                                <rect key="frame" x="137.66666666666666" y="0.0" width="117.66666666666666" height="227"/>
+                                                <rect key="frame" x="137.66666666666666" y="0.0" width="117.66666666666666" height="251.66666666666666"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="HtR-Sm-tVq" userLabel="MediumImageView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nd-hN-j4m" userLabel="MediumButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <size key="titleShadowOffset" width="1" height="1"/>
@@ -95,13 +95,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XB1-kY-7Rq" userLabel="HardView">
-                                                <rect key="frame" x="275.33333333333331" y="0.0" width="117.66666666666669" height="227"/>
+                                                <rect key="frame" x="275.33333333333331" y="0.0" width="117.66666666666669" height="251.66666666666666"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="htl-ho-oGg" userLabel="HardImageView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze1-2S-YxP" userLabel="HardButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="227"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="251.66666666666666"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <size key="titleShadowOffset" width="1" height="1"/>
@@ -124,7 +124,22 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P16-ov-Dak" userLabel="TimerView">
-                                        <rect key="frame" x="0.0" y="532" width="393" height="227"/>
+                                        <rect key="frame" x="0.0" y="507.33333333333343" width="393" height="251.66666666666669"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="von-l3-mJV">
+                                                <rect key="frame" x="0.0" y="122.33333333333326" width="393" height="8"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="7" id="yvp-ig-6qX"/>
+                                                </constraints>
+                                                <color key="progressTintColor" systemColor="systemYellowColor"/>
+                                                <color key="trackTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="von-l3-mJV" secondAttribute="trailing" id="IeX-HB-fp8"/>
+                                            <constraint firstItem="von-l3-mJV" firstAttribute="centerY" secondItem="P16-ov-Dak" secondAttribute="centerY" id="jud-M9-Fad"/>
+                                            <constraint firstItem="von-l3-mJV" firstAttribute="leading" secondItem="P16-ov-Dak" secondAttribute="leading" id="nak-JB-2D5"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -132,16 +147,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WbX-4f-LPv" secondAttribute="trailing" id="BBb-uZ-4HR"/>
-                            <constraint firstItem="WbX-4f-LPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DhH-0s-udE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WbX-4f-LPv" secondAttribute="bottom" id="Tdt-NB-ozd"/>
-                            <constraint firstItem="WbX-4f-LPv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kcG-6c-ecK"/>
+                            <constraint firstItem="WbX-4f-LPv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bv5-6p-CSJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WbX-4f-LPv" secondAttribute="trailing" id="TFE-nl-U6x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WbX-4f-LPv" secondAttribute="bottom" id="YFL-2k-QFI"/>
+                            <constraint firstItem="WbX-4f-LPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="umO-14-aWF"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-42" y="-27"/>
+            <point key="canvasLocation" x="-43.511450381679388" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
@@ -150,6 +165,9 @@
         <image name="soft_egg" width="287" height="365.33334350585938"/>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
