@@ -54,6 +54,9 @@
                                                         <state key="normal" title="Soft">
                                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="eggSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEh-j3-I1a"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -81,6 +84,9 @@
                                                         <state key="normal" title="Medium">
                                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="eggSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M97-Vx-ex0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -108,6 +114,9 @@
                                                         <state key="normal" title="Hard">
                                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="eggSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwR-cM-hd9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -153,6 +162,12 @@
                             <constraint firstItem="WbX-4f-LPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="umO-14-aWF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hardButton" destination="Ze1-2S-YxP" id="cq6-nZ-mZc"/>
+                        <outlet property="mediumButton" destination="0Nd-hN-j4m" id="Q8q-71-D5x"/>
+                        <outlet property="softButton" destination="Ccs-Ky-DS1" id="QGO-mw-NaF"/>
+                        <outlet property="titleLabel" destination="KHg-k8-ngy" id="E6U-qY-cG8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
